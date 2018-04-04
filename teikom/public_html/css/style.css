@@ -1,0 +1,186 @@
+html{
+    font-size: 14px;
+}
+
+body{
+    font-family: 'Gotham', sans-serif;
+}
+
+*:hover,*:focus,*:active{
+    box-shadow: none !important;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+a:hover,a:focus,a:active{
+    outline: none !important;
+}
+
+option:hover,option:focus,option:active{
+    outline: none !important;
+}
+
+button:hover,button:focus,button:active{
+    outline: none !important;
+}
+
+form input:focus,
+form button:focus{
+    box-shadow: none !important;
+}
+
+.form-control:focus{
+    border: 1px solid #61748F;
+    border-right: none;
+}
+
+
+/*MOBILE SEARCH FORM*/
+
+.navbar .mobile-search-form{
+    display: none;
+}
+
+.mobile-search-form button{
+    border: 1px solid #61748f;
+    border-left: none;
+    background: #fff;
+}
+
+.mobile-search-form .fa-search{
+    font-size: 16px;
+}
+
+/*DESKTOP SEARCH FORM*/
+
+.desktop-search .fa-search{
+    font-size: 14px;
+    color: #fff !important;
+}
+
+/*DESKTOP LANGUAGE*/
+
+.language-dropdown,
+.language-dropdown .language-menu a{
+    font-size: 12px;
+}
+
+.language-dropdown .dropdown-item:active{
+    background: #fff;
+    color: #000;
+}
+
+.language-btn,
+.language-btn:hover{
+    color: #fff;
+}
+
+.language-btn:after{
+    color: #D80E43;
+}
+
+.language-menu{
+    width: 100%;
+    min-width: 1px;
+    border: none;
+}
+
+/*OWL CAROUSEL HOME SLIDER*/
+
+.layer{
+    position: absolute;
+    top: 0;
+}
+
+/*FOR HEADINGS*/
+.arrow-down{
+    position: relative;
+    padding-bottom:50px; 
+}
+.arrow-down:after{
+    position:absolute;
+    content: '';
+    bottom: 0;
+    left: 0;
+    width: 50px;
+    background: url('assets/arrow-down.png') no-repeat left bottom;
+    background-size: contain;
+    height: 35px;
+}
+
+.underline{
+    position: relative;
+}
+.underline:after{
+    position: absolute;
+    bottom: -10px;
+    content: '';
+    left: 0;
+    width: 100%;
+    height: 5px;
+    background: #61748F;
+    -ms-transform: skew(-30deg); /* IE 9 */
+    -webkit-transform: skew(-30deg); /* Safari */
+    transform: skew(-30deg);
+}
+.active .underline:after{
+    background: #D80E43; 
+}
+
+.form-control:focus{
+    box-shadow: none !important;
+}
+
+.submenu{
+    display: none;
+}
+
+/*HEADER NAVIGATION*/
+
+.main-nav .main-link{
+    padding: 0 !important;
+    color: #fff !important;
+}
+
+.main-nav .submenu .nav-link{
+    color: #75859b !important;
+}
+
+.main-nav .submenu-title{
+    color: #61748f !important;
+}
+
+.main-nav .submenu{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 67px;
+    background: #fff;
+    padding: 20px;
+    list-style: none;
+}
+
+.main-nav li a{
+    padding-bottom: 0;
+    padding-left: 0 !important;
+}
+
+.lead-slider li:after{
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: url(assets/layer.png) no-repeat;
+    background-size: cover;
+}
+
+.caption{
+    position: absolute;
+    bottom: 10%;
+    left: 20%;
+    width: 40%;
+}
