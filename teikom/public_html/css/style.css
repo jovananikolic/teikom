@@ -3,7 +3,7 @@ html{
 }
 
 body{
-    font-family: 'Gotham', sans-serif;
+    font-family: 'Gotham-Narrow-Book', sans-serif;
 }
 
 *:hover,*:focus,*:active{
@@ -34,6 +34,15 @@ form button:focus{
 .form-control:focus{
     border: 1px solid #61748F;
     border-right: none;
+}
+
+.logo{
+    display: inline-block;
+    max-width: 50%;
+}
+
+.logo img{
+    width: 100%;
 }
 
 
@@ -89,10 +98,10 @@ form button:focus{
 
 /*OWL CAROUSEL HOME SLIDER*/
 
-.layer{
+/*.layer{
     position: absolute;
     top: 0;
-}
+}*/
 
 /*FOR HEADINGS*/
 .arrow-down{
@@ -125,8 +134,12 @@ form button:focus{
     -webkit-transform: skew(-30deg); /* Safari */
     transform: skew(-30deg);
 }
-.active .underline:after{
+.active.underline:after{
     background: #D80E43; 
+}
+
+a:hover.underline:after{
+    background: #D80E43;
 }
 
 .form-control:focus{
@@ -139,9 +152,37 @@ form button:focus{
 
 /*HEADER NAVIGATION*/
 
+header{
+    background: transparent;
+    transition:0.8s;
+}
+
+header.bgChange{
+    background-color: #fff;
+}
+
+header.bgChange .main-nav .main-link,
+header.bgChange .language-dropdown a,
+header.bgChange .desktop-search .fa{
+    color: #000 !important;
+    transition:0.8s;
+}
+
+header .main-nav .main-link,
+header .language-dropdown a,
+header .desktop-search .fa{
+    transition:0.8s;
+}
+
 .main-nav .main-link{
     padding: 0 !important;
     color: #fff !important;
+}
+
+.main-nav .main-link,
+.submenu-title,
+.caption h1{
+    font-family: 'Gotham-Bold', sans-serif;
 }
 
 .main-nav .submenu .nav-link{
@@ -156,15 +197,52 @@ form button:focus{
     position: absolute;
     width: 100%;
     left: 0;
-    top: 67px;
+    top: 69px;
     background: #fff;
-    padding: 20px;
+    padding: 30px;
     list-style: none;
+}
+
+.machines ul{
+    padding-right: 20px;
+}
+
+.machines ul li{
+    padding-left: 0 !important;
+    border-bottom: 1px solid rgba(97, 116, 143, 0.34);
+}
+
+/*.machines ul li a img{
+    padding-right: 20px;
+}*/
+
+.submenu ul li{
+    padding-bottom: 10px;
+    font-size: 14px;
+}
+
+.is-open{
+    display: block;
 }
 
 .main-nav li a{
     padding-bottom: 0;
     padding-left: 0 !important;
+}
+
+.submenu .fa-arrow-down{
+    position: relative;
+    margin-right: 5px;
+}
+
+.submenu .fa-arrow-down:after{
+    position: absolute;
+    content: '';
+    bottom: -3px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background: #61748f;
 }
 
 .lead-slider li:after{

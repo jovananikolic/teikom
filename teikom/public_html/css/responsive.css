@@ -1,33 +1,44 @@
 
 @media(min-width:576px){
- 
-    
-    
+
+
+
 }
 
 @media(min-width:768px){
- 
-    
-    
+
+
+
 }
 
 
 
 
 @media(min-width:992px){
-   html{
-    font-size: 16px;
-}
+    
+    html{
+        font-size: 16px;
+    }
 
-.mobile-search-form{
-  display: none !important;  
-}
-    
-    
+    .mobile-search-form{
+        display: none !important;  
+    }
+
+    .is-open{
+        display: -moz-flex;
+        display: -webkit-flex;
+        display: -ms-flex;
+        display: flex;
+        -moz-justify-content: space-between;
+        -webkit-justify-content: space-between;
+        -ms-justify-content: space-between;
+        justify-content: space-between;
+    }
+
 }
 
 @media(min-width:1200px){
-   
-    
-    
+
+
+
 }

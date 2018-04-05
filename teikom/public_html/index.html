@@ -58,10 +58,10 @@ and open the template in the editor.
 
 
 
-                <nav class="navbar navbar-expand-lg navbar-light align-items-end pr-0">
+                <nav class="navbar navbar-expand-lg navbar-light align-items-lg-end pr-0">
 
                     <!--LOGO-->
-                    <a class="navbar-brand mr-5" href="#">
+                    <a class="navbar-brand mr-lg-5 logo" href="#">
                         <img src="img/logo.png" alt=""/>
                     </a>
 
@@ -92,57 +92,288 @@ and open the template in the editor.
                         <!--MAIN NAVIGATION START-->
                         <ul class="navbar-nav main-nav w-100 justify-content-between">
                             <li class="nav-item active">
-                                <a class="nav-link text-uppercase main-link underline" href="#">Naslovna</a>
+                                <a class="nav-link text-uppercase main-link active underline" href="#">Naslovna</a>
                             </li>
                             <li class="nav-item">
-                                <a href="#" class="nav-link has-submenu main-link text-uppercase">
+                                <a href="#" class="nav-link has-submenu main-link text-uppercase active">
                                     O nama
                                 </a>
-                                <ul class="submenu" >
-                                    <li class="nav-item">
-                                        <div>
+                                <ul class="submenu">
+                                    <li class="nav-item d-inline-block">
+                                        <div class="pb-3">
                                             <img src="img/icons/iso.png" alt=""/>
-                                            <a class="nav-link has-submenu submenu-title underline d-inline-block" href="#" >
+                                            <a class="nav-link has-submenu submenu-title underline d-inline-block ml-2" href="#" >
                                                 ISO sertifikati
                                             </a> 
                                         </div>
-                                        <ul class="submenu" >
-                                            <li class="nav-item"><a class="nav-link" href="#">Action</a></li>
-                                            <li class="nav-item"><a class="nav-link" href="#">Action</a></li>
-                                            <li class="nav-item"><a class="nav-link" href="#">Action</a></li>
-                                            <li class="nav-item"><a class="nav-link" href="#">Action</a></li>
+                                        <ul class="list-unstyled">
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="css/assets/teikom-pdf.pdf" download>
+                                                    <span class="fa fa-arrow-down"></span>
+                                                    ISO 9001
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="css/assets/teikom-pdf.pdf" download>
+                                                    <span class="fa fa-arrow-down"></span>
+                                                    ISO 14001
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="css/assets/teikom-pdf.pdf" download>
+                                                    <span class="fa fa-arrow-down"></span>
+                                                    OHAS 18001
+                                                </a>
+                                            </li>
                                         </ul>
-
                                     </li>
-                                    <li><a class="nav-link" href="#">Action</a></li>
-                                    <li><a class="nav-link" href="#">Action</a></li>
-                                    <li><a class="nav-link" href="#">Action</a></li>
+                                    <li class="nav-item d-inline-block">
+                                        <div class="pb-3">
+                                            <img src="img/icons/news.png" alt=""/>
+                                            <a class="nav-link has-submenu submenu-title underline d-inline-block ml-2" href="#" >
+                                                Vesti
+                                            </a> 
+                                        </div>
+                                    </li>
+                                    <li class="nav-item d-inline-block">
+                                        <div class="pb-3">
+                                            <img src="img/icons/location.png" alt=""/>
+                                            <a class="nav-link has-submenu submenu-title underline d-inline-block ml-2" href="#" >
+                                                Teritorije
+                                            </a> 
+                                        </div>
+                                        <ul class="list-unstyled">
+                                            <li class="nav-item">
+                                                <a class="nav-link text-uppercase" href="#">
+                                                    Srbija
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link text-uppercase" href="#">
+                                                    Bosna i Hercegovina
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link text-uppercase" href="#">
+                                                    Crna Gora
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link text-uppercase" href="#">
+                                                    Makedonija
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
                                 </ul>
                             </li>
                             <li class="nav-item">
-                                <a href="#" class="nav-link has-submenu main-link text-uppercase">
+                                <a href="#" class="nav-link has-submenu main-link text-uppercase active">
                                     Proizvodi
                                 </a>
-                                <ul class="submenu" >
-                                    <li class="nav-item">
-                                        <a class="nav-link has-submenu" href="#" >
-                                            Dropdown 2
-                                        </a>
-                                        <ul class="submenu" >
-                                            <li class="nav-item"><a class="nav-link" href="#">Action</a></li>
-                                            <li class="nav-item"><a class="nav-link" href="#">Action</a></li>
-                                            <li class="nav-item"><a class="nav-link" href="#">Action</a></li>
-                                            <li class="nav-item"><a class="nav-link" href="#">Action</a></li>
-                                        </ul>
-
+                                <ul class="submenu machines">
+                                    <li class="nav-item d-inline-block">
+                                        <div class="pb-4">
+                                            <img src="img/icons/truck-red.png" alt=""/>
+                                            <a class="nav-link has-submenu submenu-title underline d-inline-block ml-2" href="#" >
+                                                Mašine
+                                            </a> 
+                                        </div>
+                                        <div class="d-flex">
+                                            <ul class="list-unstyled">
+                                                <li class="nav-item border-bottom-0">
+                                                    <a class="nav-link" href="#">
+                                                        <img src="img/brands/komatsu.png" alt=""/>
+                                                    </a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">
+                                                        <img src="img/machine.png" alt=""/>
+                                                        Rigidni damperi
+                                                    </a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">
+                                                        <img src="img/machine.png" alt=""/>
+                                                        Zglobni damperi
+                                                    </a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">
+                                                        <img src="img/machine.png" alt=""/>
+                                                        Buldožeri
+                                                    </a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">
+                                                        <img src="img/machine.png" alt=""/>
+                                                        Hidraulični bageri guseničari
+                                                    </a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">
+                                                        <img src="img/machine.png" alt=""/>
+                                                        Utovarivači
+                                                    </a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">
+                                                        <img src="img/machine.png" alt=""/>
+                                                        Rovokopači utovarivači
+                                                    </a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">
+                                                        <img src="img/machine.png" alt=""/>
+                                                        Kompaktni utovarivači
+                                                    </a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">
+                                                        <img src="img/machine.png" alt=""/>
+                                                        Mini bageri
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                            <ul class="list-unstyled">
+                                                <li class="nav-item border-bottom-0">
+                                                    <a class="nav-link" href="#">
+                                                        <img src="img/brands/komatsu.png" alt=""/>
+                                                    </a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">
+                                                        <img src="img/machine.png" alt=""/>
+                                                        Bageri guseničari sa kratkim krajem
+                                                    </a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">
+                                                        <img src="img/machine.png" alt=""/>
+                                                        Hidraulični bageri točkaši
+                                                    </a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">
+                                                        <img src="img/machine.png" alt=""/>
+                                                        Samohodne čeljusne drobilice
+                                                    </a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">
+                                                        <img src="img/machine.png" alt=""/>
+                                                        Mašine za rušenje
+                                                    </a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">
+                                                        <img src="img/machine.png" alt=""/>
+                                                        Midi bageri
+                                                    </a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">
+                                                        <img src="img/machine.png" alt=""/>
+                                                        Grejderi
+                                                    </a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">
+                                                        <img src="img/machine.png" alt=""/>
+                                                        Skidster utovarivači guseničari
+                                                    </a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" href="#">
+                                                        <img src="img/machine.png" alt=""/>
+                                                        Skidster utovarivači točkaši
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
                                     </li>
-                                    <li><a class="nav-link" href="#">Action</a></li>
-                                    <li><a class="nav-link" href="#">Action</a></li>
-                                    <li><a class="nav-link" href="#">Action</a></li>
+                                    <li class="nav-item d-inline-block">
+                                        <div class="pb-4">
+                                            <img src="img/icons/truck-grey.png" alt=""/>
+                                            <a class="nav-link has-submenu submenu-title underline d-inline-block ml-2" href="#" >
+                                                Radni alati
+                                            </a> 
+                                        </div>
+                                        <ul class="list-unstyled">
+                                            <li class="nav-item border-bottom-0">
+                                                <a class="nav-link" href="#">
+                                                    <img src="img/brands/dieci.png" alt=""/>
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">
+                                                    <img src="img/machine.png" alt=""/>
+                                                    Indusrijski teleskopsi manipulatori
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">
+                                                    <img src="img/machine.png" alt=""/>
+                                                    Kamionske mešalice
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">
+                                                    <img src="img/machine.png" alt=""/>
+                                                    Rotirajući teleskopsi manipulatori
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">
+                                                    <img src="img/machine.png" alt=""/>
+                                                    Poljoprivredni teleskopsi manipulatori
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">
+                                                    <img src="img/machine.png" alt=""/>
+                                                    Mali damperi
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item d-inline-block">
+                                        <div class="pb-4">
+                                            <img src="img/icons/tire.png" alt=""/>
+                                            <a class="nav-link has-submenu submenu-title underline d-inline-block ml-2" href="#" >
+                                                Gume
+                                            </a> 
+                                        </div>
+                                        <ul class="list-unstyled">
+                                            <li class="nav-item border-bottom-0">
+                                                <a class="nav-link" href="#">
+                                                    <img src="img/brands/ghh.png" alt=""/>
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">
+                                                    <img src="img/machine.png" alt=""/>
+                                                    Rigidni damperi
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">
+                                                    <img src="img/machine.png" alt=""/>
+                                                    Zglobni damperi
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#">
+                                                    <img src="img/machine.png" alt=""/>
+                                                    Zglobni damperi
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
                                 </ul>
                             </li>
                             <li class="nav-item">
-                                <a href="#" class="nav-link has-submenu main-link text-uppercase">
+                                <a href="#" class="nav-link has-submenu main-link text-uppercase active">
                                     Brendovi
                                 </a>
                                 <ul class="submenu" >
@@ -164,7 +395,7 @@ and open the template in the editor.
                                 </ul>
                             </li>
                             <li class="nav-item">
-                                <a href="#" class="nav-link has-submenu main-link text-uppercase">
+                                <a href="#" class="nav-link has-submenu main-link text-uppercase active">
                                     Usluge
                                 </a>
                                 <ul class="submenu" >
@@ -203,7 +434,8 @@ and open the template in the editor.
                     <li class="w-100 position-relative">
                         <img src="img/shutterstock.png" alt=""/>
                         <div class="caption">
-                            <h1 class="text-white font-weight-bold">Lorem ipsum dolor sit amet,
+                            <h1 class="text-white">
+                                Lorem ipsum dolor sit amet,
                                 consectetur adipiscing elit.
                             </h1>
                         </div>
@@ -212,7 +444,8 @@ and open the template in the editor.
 
                         <img src="img/shutterstock.png" alt=""/>
                         <div class="caption">
-                            <h1 class="text-white font-weight-bold">Lorem ipsum dolor sit amet,
+                            <h1 class="text-white">
+                                Lorem ipsum dolor sit amet,
                                 consectetur adipiscing elit.
                             </h1>
                         </div>
@@ -221,7 +454,8 @@ and open the template in the editor.
 
                         <img src="img/shutterstock.png" alt=""/>
                         <div class="caption">
-                            <h1 class="text-white font-weight-bold">Lorem ipsum dolor sit amet,
+                            <h1 class="text-white">
+                                Lorem ipsum dolor sit amet,
                                 consectetur adipiscing elit.
                             </h1>
                         </div>
