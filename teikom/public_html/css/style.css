@@ -203,6 +203,11 @@ header .desktop-search .fa{
     list-style: none;
 }
 
+.main-nav .machines{
+    height: 500px !important;
+    overflow-y: scroll;
+}
+
 .machines ul{
     padding-right: 20px;
 }
@@ -212,9 +217,9 @@ header .desktop-search .fa{
     border-bottom: 1px solid rgba(97, 116, 143, 0.34);
 }
 
-/*.machines ul li a img{
-    padding-right: 20px;
-}*/
+.submenu ul{
+    height: 100% !important;
+}
 
 .submenu ul li{
     padding-bottom: 10px;
