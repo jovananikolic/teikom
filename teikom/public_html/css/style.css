@@ -98,10 +98,25 @@ form button:focus{
 
 /*OWL CAROUSEL HOME SLIDER*/
 
-/*.layer{
+.owl-carousel .owl-dots{
     position: absolute;
-    top: 0;
-}*/
+    bottom: 20px;
+    left: 45%;
+}
+
+.owl-carousel .owl-dots .owl-dot span{
+    background: url('assets/slider-nav.png') center no-repeat !important;
+    border-radius: 0 !important;
+    width: 30px !important;
+    height: 5px !important;
+}
+
+.owl-carousel .owl-dots .owl-dot.active span{
+    background: url('assets/slider-nav-active.png') center no-repeat !important;
+    border-radius: 0;
+    width: 30px;
+    height: 5px;
+}
 
 /*FOR HEADINGS*/
 .arrow-down{

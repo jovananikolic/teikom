@@ -17,8 +17,7 @@ $(document).ready(function () {
         $(".lead-slider").owlCarousel({
             items: 1,
             loop: true,
-            margin: 0,
-            nav: true
+            margin: 0
 //            autoplay: true,
 //            autoplayTimeout: 5000
         });
